@@ -17,7 +17,7 @@ import Navbar from "./components/Navbar.vue";
 <style scoped>
 .scale-enter-active,
 .scale-leave-active {
-  transition: all 0.5s ease;
+  transition: all 1s ease-in-out;
 }
 .scale-enter-from,
 .scale-leave-to {
