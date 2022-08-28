@@ -1,5 +1,5 @@
 <template>
-  <section id="profile">
+  <section id="profile" class="overflow-hidden">
     <div class="container">
       <div class="one">
         <div class="space-for-hero-content">
