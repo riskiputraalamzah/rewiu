@@ -1,5 +1,5 @@
 <template>
-  <section id="profile" class="overflow-hidden">
+  <section id="profile" class="overflow-hidden pb-5">
     <div class="container">
       <div class="one">
         <div class="space-for-hero-content">
@@ -7,8 +7,8 @@
             class="row align-items-center gy-5 justify-content-center flex-row-reverse"
           >
             <div class="col-lg-7 col-md-10 text-center">
-              <div class="display-1 title primary-color">
-                <span> What's Rewiu ? </span>
+              <div class="display-1 title">
+                <span class="border-bottom-radius"> What's Rewiu ? </span>
               </div>
 
               <img
@@ -39,7 +39,9 @@
       <div class="two mt-5 pt-5">
         <div class="row">
           <div class="col-md-10 col-lg-8">
-            <div class="display-1 title">Why must choose Rewiu ?</div>
+            <div class="display-1 title border-left-primary-color">
+              Why must choose Rewiu ?
+            </div>
           </div>
         </div>
 
@@ -91,27 +93,8 @@
   margin-top: 15rem;
 }
 
-#profile .title span {
-  position: relative;
-}
 #profile .title {
   font-family: var(--fontHeader);
   font-weight: bold;
-}
-#profile .title span::after {
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80%;
-  height: 6px;
-  border-radius: 50%;
-  background-color: var(--primaryColor);
-}
-#profile .two .title {
-  padding-left: 1.5rem;
-  border-radius: 10px;
-  border-left: 8px solid var(--primaryColor);
 }
 </style>

@@ -1,4 +1,5 @@
 @import url(./variable.css);
+
 * {
   font-family: var(--roboto);
 }
@@ -31,4 +32,25 @@
   background-color: var(--primaryColor);
   border-color: var(--primaryColor);
   color: white;
+}
+
+.border-left-primary-color {
+  padding-left: 1.5rem;
+  border-radius: 10px;
+  border-left: 8px solid var(--primaryColor);
+}
+
+span.border-bottom-radius {
+  position: relative;
+}
+span.border-bottom-radius::after {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5px;
+  background-color: var(--primaryColor);
+  border-radius: 50%;
 }

@@ -100,7 +100,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  opacity: 0.2;
+  opacity: 0.1;
   background-image: url(/assets/circle-bg.png);
 }
 @media (max-width: 569px) {
