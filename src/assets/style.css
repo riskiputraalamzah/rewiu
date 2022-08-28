@@ -1,0 +1,29 @@
+@import url(./variable.css);
+* {
+  font-family: var(--roboto);
+}
+.font-header {
+  font-family: var(--fontHeader);
+}
+.btn-primary-color {
+  background-color: var(--primaryColor);
+  border: 3px solid var(--primaryColor);
+  color: white;
+}
+.btn-primary-color:hover {
+  background-color: var(--primaryColor);
+  border: 3px solid var(--primaryColor);
+  color: white;
+}
+
+.btn-outline-primary-color {
+  /* transition: background 0.5s ease-in-out; */
+  background-color: transparent;
+  border: 3px solid var(--primaryColor);
+  color: var(--primaryColor);
+}
+.btn-outline-primary-color:hover {
+  background-color: var(--primaryColor);
+  border-color: var(--primaryColor);
+  color: white;
+}
