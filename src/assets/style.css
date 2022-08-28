@@ -2,6 +2,9 @@
 * {
   font-family: var(--roboto);
 }
+.primary-color {
+  color: var(--primaryColor) !important;
+}
 .font-header {
   font-family: var(--fontHeader);
 }
@@ -10,7 +13,8 @@
   border: 3px solid var(--primaryColor);
   color: white;
 }
-.btn-primary-color:hover {
+.btn-primary-color:hover,
+.btn-primary-color:focus {
   background-color: var(--primaryColor);
   border: 3px solid var(--primaryColor);
   color: white;
@@ -22,7 +26,8 @@
   border: 3px solid var(--primaryColor);
   color: var(--primaryColor);
 }
-.btn-outline-primary-color:hover {
+.btn-outline-primary-color:hover,
+.btn-outline-primary-color:focus {
   background-color: var(--primaryColor);
   border-color: var(--primaryColor);
   color: white;

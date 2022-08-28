@@ -3,12 +3,12 @@
     <div class="container">
       <div class="space-top"></div>
       <div class="row gy-5 justify-content-center position-relative">
-        <div class="col-lg-6">
+        <div class="col-lg-7">
           <div class="display-1 text-lg-start text-center title">
-            Rewiu Skincare
+            The New and Best Beauty Products
           </div>
           <div
-            class="fs-5 mt-4 text-md-start text-center opacity-75 fw-light subtitle"
+            class="fs-5 mt-4 text-md-start text-center opacity-75 fw-bold subtitle"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
             expedita consequuntur cum quo veritatis exercitationem nihil sint
@@ -28,7 +28,7 @@
             </button>
           </div>
         </div>
-        <div class="col-lg-6 col-sm-8">
+        <div class="col-lg-5 col-sm-8">
           <div class="img-hero-content ps-lg-5 ps-0">
             <div class="parent-woman w-75">
               <img src="/images/woman.png" alt="" class="w-100" />
@@ -81,7 +81,7 @@
   right: 0;
 }
 #hero-content .title {
-  font-family: var(--fontHeader) !important;
+  /* font-family: var(--fontHeader) !important; */
   font-weight: bold;
   /* color: var(--primaryColor); */
 }
@@ -100,7 +100,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  opacity: 0.1;
+  opacity: 0.2;
   background-image: url(/assets/circle-bg.png);
 }
 @media (max-width: 569px) {
