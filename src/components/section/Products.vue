@@ -25,4 +25,9 @@
   opacity: 0.1;
   background-image: url(/assets/blob-1.png);
 }
+@media (max-width: 569px) {
+  #products::before {
+    background-image: url(/assets/blob-1-mobile.png);
+  }
+}
 </style>
