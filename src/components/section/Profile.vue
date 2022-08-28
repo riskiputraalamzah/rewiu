@@ -45,7 +45,7 @@
 
         <div class="row g-5 justify-content-center mt-5">
           <div class="col-lg-4 col-sm-6 col-10">
-            <div class="card shadow-">
+            <div class="card shadow">
               <div class="card-body text-center">
                 <i class="fas fa-handshake display-2 primary-color"></i>
                 <div class="fs-1 fw-semibold mt-2">Trusted</div>
@@ -57,7 +57,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 col-10">
-            <div class="card shadow-">
+            <div class="card shadow">
               <div class="card-body text-center">
                 <i class="fas fa-grin-stars display-2 primary-color"></i>
                 <div class="fs-1 fw-semibold mt-2">Best Seller</div>
@@ -69,7 +69,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 col-10">
-            <div class="card shadow-">
+            <div class="card shadow">
               <div class="card-body text-center">
                 <i class="fas fa-certificate display-2 primary-color"></i>
                 <div class="fs-1 fw-semibold mt-2">Verified BPOM</div>
