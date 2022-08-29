@@ -22,7 +22,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  opacity: 0.1;
+  opacity: 0.2;
   background-image: url(/assets/blob-1.png);
 }
 @media (max-width: 569px) {
