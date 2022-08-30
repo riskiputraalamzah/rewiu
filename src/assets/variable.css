@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 :root {
   --primaryColor: #907dc2;
   --fontHeader: "Zen Kaku Gothic Antique", sans-serif !important;
   --roboto: "Roboto", sans-serif !important;
+  --robotoSlab: "Roboto Slab", serif;
 }

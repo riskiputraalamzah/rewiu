@@ -1,5 +1,5 @@
 <template>
-  <section id="profile" class="overflow-hidden pb-5">
+  <section id="profile" class="overflow-hidden pb-5 mb-5">
     <div class="container">
       <div class="one">
         <div class="space-for-hero-content">
@@ -7,7 +7,7 @@
             class="row align-items-center gy-5 justify-content-center flex-row-reverse"
           >
             <div class="col-lg-7 col-md-10 text-center">
-              <div class="display-1 title">
+              <div class="display-3 title">
                 <span class="border-bottom-radius"> What's Rewiu ? </span>
               </div>
 
@@ -38,19 +38,19 @@
 
       <div class="two mt-5 pt-5">
         <div class="row">
-          <div class="col-md-10 col-lg-8">
-            <div class="display-1 title border-left-primary-color">
+          <div class="col-12">
+            <div class="display-3 title border-left-primary-color">
               Why must choose Rewiu ?
             </div>
           </div>
         </div>
 
-        <div class="row g-5 justify-content-center mt-5">
+        <div class="row g-5 justify-content-center mt-4">
           <div class="col-lg-4 col-sm-6 col-10">
-            <div class="card shadow">
-              <div class="card-body text-center">
+            <div class="card shadow border-0">
+              <div class="card-body p-4 text-center">
                 <i class="fas fa-handshake display-2 primary-color"></i>
-                <div class="fs-1 fw-semibold mt-2">Trusted</div>
+                <div class="fs-3 fw-semibold mt-2">Trusted</div>
                 <div class="mt-2 opacity-75">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Dicta, facere?
@@ -59,10 +59,10 @@
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 col-10">
-            <div class="card shadow">
-              <div class="card-body text-center">
+            <div class="card shadow border-0">
+              <div class="card-body p-4 text-center">
                 <i class="fas fa-grin-stars display-2 primary-color"></i>
-                <div class="fs-1 fw-semibold mt-2">Best Seller</div>
+                <div class="fs-3 fw-semibold mt-2">Best Seller</div>
                 <div class="mt-2 opacity-75">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Dicta, facere?
@@ -71,10 +71,10 @@
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 col-10">
-            <div class="card shadow">
-              <div class="card-body text-center">
+            <div class="card shadow border-0">
+              <div class="card-body p-4 text-center">
                 <i class="fas fa-certificate display-2 primary-color"></i>
-                <div class="fs-1 fw-semibold mt-2">Verified BPOM</div>
+                <div class="fs-3 fw-semibold mt-2">Verified BPOM</div>
                 <div class="mt-2 opacity-75">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Dicta, facere?

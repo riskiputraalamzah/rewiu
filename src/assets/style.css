@@ -6,6 +6,9 @@
 .primary-color {
   color: var(--primaryColor) !important;
 }
+.roboto-slab {
+  font-family: var(--robotoSlab) !important;
+}
 .font-header {
   font-family: var(--fontHeader);
 }
