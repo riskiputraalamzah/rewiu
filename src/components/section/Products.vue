@@ -157,7 +157,7 @@ const data = [
   background-image: url(/assets/blob-1.png);
 }
 .isi-informasi-terkait {
-  padding: 1rem 0 0 1rem;
+  padding: .5rem 0 0 1rem;
 }
 
 .accordion-button:focus {
