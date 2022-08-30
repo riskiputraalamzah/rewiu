@@ -102,6 +102,7 @@ const data = [
                   <div><strong>Manfaat</strong> : {{ item.manfaat }}</div>
                   <div class="mt-4">
                     <strong>Petunjuk Penggunaan</strong> :
+<div v-if="item.caraPakai.length > 1">
                     <ol type="1">
                       <li
                         class="py-1"
@@ -109,7 +110,14 @@ const data = [
                         :key="listI"
                         v-text="list"
                       ></li>
+
                     </ol>
+</div>
+<div v-else class="isi-informasi-terkait">
+{{item.caraPakai[0]}}
+</div>
+
+
                   </div>
                   <div class="mt-4">
                     <strong>Informasi Terkait Produk</strong>
