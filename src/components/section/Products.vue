@@ -101,7 +101,7 @@ const data = [
                 <div class="col-md-7 col-lg-8 col-12">
                   <div><strong>Manfaat</strong> : {{ item.manfaat }}</div>
                   <div class="mt-4">
-                    <strong>Bahan-bahan</strong> :
+                    <strong>Petunjuk Penggunaan</strong> :
                     <ol type="1">
                       <li
                         class="py-1"
