@@ -18,11 +18,16 @@
           <div
             class="mt-5 d-flex align-items-center justify-content-lg-start justify-content-center flex-sm-row flex-column"
           >
-            <button class="rounded-pill fs-5 btn-primary-color btn shadow">
+            <a
+              href="https://api.whatsapp.com/send?phone=6282293600855&text=Hai,%20I%20Want%20to%20get%20products%20of%20Rewiu!!!"
+              target="_blank"
+              class="rounded-pill fs-5 btn-primary-color button-hero-content btn shadow"
+            >
               Get Product
-            </button>
+            </a>
             <button
-              class="btn-outline-primary-color ms-sm-4 ms-0 mt-4 mt-sm-0 fs-5 rounded-pill btn shadow"
+              @click="this.toProfile"
+              class="btn-outline-primary-color ms-sm-4 ms-0 mt-4 mt-sm-0 fs-5 button-hero-content rounded-pill btn shadow"
             >
               What's Rewiu ?
             </button>
@@ -85,7 +90,7 @@
   font-weight: bold;
   /* color: var(--primaryColor); */
 }
-#hero-content button {
+#hero-content .button-hero-content {
   padding: 1rem 2rem;
 }
 #hero-content {
@@ -106,6 +111,9 @@
 @media (max-width: 569px) {
   .img-hero-content::after {
     transform: translate(60px, 30px);
+  }
+  #hero-content .button-hero-content {
+    padding: 0.5rem 1rem;
   }
 }
 </style>

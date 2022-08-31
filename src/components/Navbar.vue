@@ -18,10 +18,14 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <router-link class="nav-link" active-class="active" to="/"
+              >Home</router-link
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
+            <a class="nav-link" @click.prevent="this.toProfile" href="#"
+              >Profile</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Products</a>
