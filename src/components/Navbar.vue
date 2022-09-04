@@ -24,7 +24,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" @click.prevent="this.toProfile" href="#"
-              >Profile</a
+              >About</a
             >
           </li>
           <li class="nav-item">

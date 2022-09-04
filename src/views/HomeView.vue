@@ -6,6 +6,7 @@ import Products from "@/components/section/Products.vue";
 <template>
   <main>
     <HeroContent />
+
     <Profile />
     <Products />
   </main>
